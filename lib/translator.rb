@@ -19,10 +19,10 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
   translator = load_library(path) # calls on load_library and gives it the argument of the file path
 #expect(self).to receive(:load_library).with(file_path).and_return(emoticon_hash)
-  if translator["get_emoticon"][emoticon] != nil
+  if translator["get_emoticon"][emoticon] 
     translator["get_emoticon"][emoticon]
   else
-    "Sorry, that emoticon was not found."
+    "Sorry, that emoticon was not found"
   end
 end
 
