@@ -4,7 +4,7 @@ def load_library(path)
   thing = {}
   thing = YAML.load_file("./lib/emoticons.yml") # code goes here
   puts thing.inspect
-  
+
   translator = {}
   translator["get_meaning"] = {}
   translator["get_emoticon"] = {}
