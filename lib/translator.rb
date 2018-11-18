@@ -9,7 +9,7 @@ def load_library(path)
   thing.each do |key, value|
     thing["get_emoticon"][value[0]] = value[1]
     thing["get_meaning"][value[1]] = key
-    
+
   end
   thing
 end
