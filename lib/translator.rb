@@ -8,7 +8,7 @@ def load_library(path)
     thing[get_meaning] = key
     thing[get_emoticon] = value
   end
-  thing  
+  thing
 end
 
 def get_japanese_emoticon
