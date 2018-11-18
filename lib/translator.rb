@@ -6,9 +6,9 @@ def load_library(path)
   puts thing.inspect
   thing["get_meaning"] = {}
   thing["get_emoticon"] = {}
-  thing.each do |key, value|
+  thing.each do |word, value|
     thing["get_emoticon"][value[0]] = value[1]
-    thing["get_meaning"][value[1]] = key
+    thing["get_meaning"][value[1]] = word
 
   end
   thing
