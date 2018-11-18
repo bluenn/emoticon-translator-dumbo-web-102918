@@ -5,8 +5,8 @@ def load_library(path)
   thing = YAML.load_file("./lib/emoticons.yml") # code goes here
   puts thing.inspect
   thing.each do |key, value|
-    thing[get_meaning] = key
-    thing[get_emoticon] = value
+    thing["get_meaning"] = key
+    thing["get_emoticon"] = value
   end
   thing
 end
