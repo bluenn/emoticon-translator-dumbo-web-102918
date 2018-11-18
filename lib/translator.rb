@@ -33,6 +33,6 @@ def get_english_meaning(path, emoticon)
   if translator["get_meaning"][emoticon]
     translator["get_meaning"][emoticon]
   else
-    "Sorry, that meaning was not found"
+    "Sorry, that emoticon was not found"
   end
 end
