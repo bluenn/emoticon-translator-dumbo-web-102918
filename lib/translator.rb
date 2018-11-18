@@ -30,10 +30,10 @@ def get_english_meaning(path, emoticon)
   # code goes here
   translator = load_library(path) # calls on load_library and gives it the argument of the file path
 #expect(self).to receive(:load_library).with(file_path).and_return(emoticon_hash)
-if translator["get_meaning"][emoticon]
-  translator["get_meaning"][emoticon]
-else
-  "Sorry, that meaning was not found"
+  if translator["get_meaning"][emoticon]
+    translator["get_meaning"][emoticon]
+  else
+    "Sorry, that meaning was not found"
+  end
 end
-end
-end
+
