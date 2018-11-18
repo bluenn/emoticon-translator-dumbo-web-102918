@@ -7,8 +7,8 @@ def load_library(path)
   thing["get_meaning"] = {}
   thing["get_emoticon"] = {}
   thing.each do |key, value|
-    thing["get_meaning"][value.last] = key
-    thing["get_emoticon"][value.first] = value.last
+    thing["get_meaning"][value[1]] = key
+    thing["get_emoticon"][value[0]] = value[1]
   end
   thing
 end
