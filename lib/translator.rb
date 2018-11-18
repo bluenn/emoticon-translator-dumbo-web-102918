@@ -22,7 +22,7 @@ def get_japanese_emoticon(path, emoticon)
   if translator["get_emoticon"][emoticon] != nil
     translator["get_emoticon"][emoticon]
   else
-    "I'm sorry, we don't have a Japanese equivalent for that emoticon."
+    "Sorry, that emoticon was not found."
   end
 end
 
