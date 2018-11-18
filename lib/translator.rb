@@ -11,6 +11,7 @@ def load_library(path)
     thing["get_meaning"][value[1]] = word
 
   end
+  puts thing.inspect
   thing
 end
 
