@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   # code goes here
-  translator = load_library(path)
+  translator = load_library(path) # calls on load_library and gives it the argument of the file path
 end
 
 def get_english_meaning
