@@ -18,6 +18,7 @@ end
 def get_japanese_emoticon(path, emoticon)
   # code goes here
   translator = load_library(path) # calls on load_library and gives it the argument of the file path
+#expect(self).to receive(:load_library).with(file_path).and_return(emoticon_hash)
 end
 
 def get_english_meaning
